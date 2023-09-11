@@ -4,7 +4,10 @@ UNC-CH-DA Module 12- NoSQL Challenge
 ### **INSTRUCTIONS**
 * Clone the repository to your local machine
 * cd into the "nosql-challenge' directory.
+* make sure MongoDB is started
 * The Jupyter Notebooks for the project are 'NoSQL_analysis_setup.ipynb' and 'NoSQL_analysis_solution.ipynb'
+* The postGres database was created using pgAdmin4 and the schema.
+* Additionally the CSVs were imported into the tables using pgAdmin4.
 
 ### **BACKGROUND**
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
@@ -117,3 +120,5 @@ To recive all points, your Jupyter Notebook setup file must have all of the foll
 
 ### **RESOURCES**
 * mongodb query reference: https://www.mongodb.com/docs/v6.0/reference/operator/query-comparison/ 
+* UNC-CH-DA Module 12 Class slides and examples were also referenced thorughout the completion of this challenge.
+* ERD was created using QUICKDBD: https://app.quickdatabasediagrams.com/#/d/JHt5nv  
